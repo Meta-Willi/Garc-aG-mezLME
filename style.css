@@ -1,0 +1,99 @@
+/*font-family: 'Acme', sans-serif;
+font-family: 'RocknRoll One', sans-serif;*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(232,238,238);
+    background: linear-gradient(90deg, rgba(232,238,238,1) 0%, rgba(217,223,223,1) 25%, rgba(191,200,209,1) 50%, rgba(164,176,188,1) 75%, rgba(142,160,174,1) 100%);
+}
+
+/*Menu*/
+
+ul {
+    list-style: none;
+  }
+a {
+    color: #aaaebc;
+    text-decoration: none;
+}
+.menu {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1c1d;
+    padding: 25px 0px;
+    font: 22px sans-serif;
+}
+.menu li {
+    margin-right: 70px;
+}
+.menu a {
+    position: relative;
+    display: block;
+    padding: 0px;
+  }
+.menu a:hover{
+    background: linear-gradient(to right, #b47dcd, #e878a2, #eb85ab)
+  }
+
+
+/*imagen grande*/
+
+.imagen{
+    position: relative;
+}
+.imagen img{
+    position: absolute;
+}
+
+/*section*/
+h1{
+    text-align: center;
+    font-family: 'Acme', 'Verdana', Tahoma, sans-serif;
+    font-size: 3em;
+}
+.content img{
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+.content{
+    margin-top: 30%;
+    width: 700px;
+    height: 430px;
+    margin: 25px 20px;
+    padding: 15px 50px;
+    background-color: white;
+    position: relative;    
+}
+
+.content  h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    text-align: center;
+  }
+.content, .info{
+    padding: 10px 0px;
+    text-align: justify;
+    float: left;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.0em;
+    line-height: 1.1em;
+  }
+
+/*Fooer*/
+
+footer{
+    clear: left;
+    margin-top: 40%;
+   height: 100%;
+   width: 100%;
+   text-align: center;
+   background-color: #1a1c1d;
+   color: rgb(255, 255, 255);
+   font-size: 1.8em;
+}
